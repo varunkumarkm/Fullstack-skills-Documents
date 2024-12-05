@@ -1,0 +1,19 @@
+1) Variables
+2) Datatypes
+3) Type Conversion and type Coercion
+4) Arithmetic operator
+5) Relational Operator
+6) Comparing a number and String
+7) Comparing a equals 
+8) Logical operators
+9) Conditional Statement
+10) Ternary operator
+11) Template literal
+12) Loops
+13) Nested for loop
+14) Object literal
+15) Functions
+16) Function Expression
+17) Arrow Function
+18) this keyword
+19) Arrays and collections

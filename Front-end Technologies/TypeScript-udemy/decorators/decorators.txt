@@ -1,0 +1,51 @@
+Decorators
+-> it provides a way to programatically tap into a processing of defining a class
+-> A class will have properties and methods
+-> Decorators allow us to directly inject the code into the class defination before the instance of class is created
+Decorators are:
+* programically update
+* properties and methods 
+* inject code
+* Experiemental
+* Angular and vue js
+* Attributes and Annotations
+
+ex:
+@classDecorator
+class product {
+@propertyDecorator
+name:string:'iphone';
+constructor(id:number){
+
+}
+@methodDecorator
+print(@paramDecorator test:string){
+    console.log(this.name);
+}
+}
+let p = new Product(1);
+console.log((<any>p).price)
+
+Types of Decorators? 
+-> There are four types of decorators are:
+1) class Decorators - use the class
+2) propertyDecorator - apply properties
+3) methodDecorator - these are applies for the methods
+4) paramDecorator - these are applied parameters 
+
+Order of parameters are:
+
+* parameter decorators, followed by the Method or Property, 
+Decorators are applied for each instance member.
+
+* parameter decorators, followed by the Method or Property, 
+Decorators are applied for each static member.
+
+* parameter decorators are applied from the constructor
+
+* class decorator are applied from the class
+
+when we compile the decorators in typescript use command is:
+tsc -t es6 --experimentalDecorators decoratorsDemoi.ts
+
+

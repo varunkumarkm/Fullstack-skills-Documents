@@ -1,0 +1,24 @@
+RegularExpression - it is used to valid our email, password, phone numbers etc.
+TypeScript does not have a regular expression type we use 'any' type to define a regular expression
+ any //    
+ string match(^w{4,10}/) - The match method takes a regular expression and checks in the given string
+ matching the regular expression, it does return a true, if does'nt return a false value
+ Regular expression is a combination of meta characters and quantifiers
+ Meta characters - 
+  1)  ?  zero or one character
+  2) + for one or more occerance of given character
+  3) * for zero or more occerance character of a given character 
+  4) \w - alpha numeric value
+  5) \d - all the digits or numbers
+  6) \s - spaces if we want to use
+  7) [A-z] - all the capital letters
+  8) [a-z] - same for lower case
+  9) [0-9] - checks the numeric values
+  10) \^ - a particular string starts with and $ for ends with
+  11) (?=.*[A-B]) - Atleast one occerance of the, altleast on capital letters
+  12) (?=.*[!@&^%$]) - Atleast one special character
+
+Quantifiers:
+  1) {n} - How many number should occurc, Exactly n number of characters should occur
+  2) {m,n} - Min of m and Max of n
+  3) {m,} - it is a Min m and MAx of any

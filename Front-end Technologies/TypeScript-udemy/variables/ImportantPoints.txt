@@ -1,0 +1,64 @@
+what is type script?
+-> TypeScript is super set of javaScript or J++(TypeSafe, and easy)
+Advantages:
+* All the typeScript code is trance compiled into a javaScript by using a typeScript compiler
+* Easy of use
+* Help us to Oops: Interface, Inheritance, Encapsulation 
+* In typeScript defining the variable is ex: var x: number = 10;
+
+How to install a TypeScript
+-> NPM - Node package manager, same as we javaScript using node-js and npm
+-> Step1 - using command prompt check our node and npm versions 
+-> step2 - npm install -g typescript
+once sucessfully install, check the version using tsc --v (typeScript compiler)
+
+1) Variable and Data types:
+Variables we using typeScript are: var and let
+ var x = 123;
+ let x = 'varun';
+ var x = 3.14
+ Defining this variable we using Data types
+
+ typeScript Data types are:
+ * Number   * String   * Boolean  * any   * Enum   
+
+ finally we defining the: 
+ var x:number = 10; Number can stores the integer and any decimal values
+ var s:string = 'varun'; String is stores a string values
+ var b:boolean = true; Boolean can stores the either true or false
+ var a:any = "varun" can stores the any data type values, It can hold any type of data at any time
+ var e = {Male,Female} Enum is a sequence of a constanr value
+
+ Note: variables.ts - This is the file name once I run this command tsc variables.js it will converted 
+       into javaScript and new file also automatically converted
+
+ Note: when I use the console.log, console is a inbuilt object and log is a function of an inbuilt object
+      once its execute showing into browser or console, 
+      Similarly we have alert, confirm and prompt
+      alert - it is display to a proper message to the end user
+      confirm - display the message and ask the end user confirm a particular action
+      prompt - display a pop-up box and promps the user from enter from information
+
+Enum - Enum is a collection of constant values
+
+2) operators:
+* Arithmatic * Comparision, * Logical * Ternary
+
+3) Flow control statements: 
+* if-else, * switch, * break, * while loop
+
+4) Objects and arrays
+syntax of object is:
+var product = {
+    id:123,
+    name:varun,
+    city:mysore
+}
+for the typeScript for creating a objects we can using a Interface and classes also
+4) Functions
+5) Arrow Functions
+6) Variable prifixes
+* var * const * let * declare
+*let - let is a block scoped variable, once we used let its available only that block and not outside of it
+let is supports with after ES6 features
+*var - where as when we declare a var, it will available for the entire function

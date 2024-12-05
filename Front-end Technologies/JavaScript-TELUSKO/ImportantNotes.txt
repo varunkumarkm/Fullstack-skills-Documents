@@ -1,0 +1,116 @@
+Visual studio - It is used to write our code, show our code and easily to debug the code
+Node-js - it using to run our code, we need some environament, So node-js is a javascript engine 
+          in which we run our code
+
+javascript - javascript is a flexible language
+* why we using a single cotes and double cotes in javascript
+-> Because when we declaring a string we using single and double cotes, But when we using 'varun's phone'
+like this we got confused, that's why at the time we using "varun's phone" .         
+
+Variables:
+ * We want to store the data from temprory purpose, we using the variables.
+ * Once we store the values on varibles we using multiple times.
+ * A variable can have store characters, numbers, numbers can use any where but not first character.
+ * A variable can have store a special symbols are: $ and _
+ * We can declearnig variable name as camel case.
+
+note - All our javascript code is convert into machine code
+ 
+let - A let is a keykowrd, using which we create a variable.
+const - A constant is keyword which we create a constant variables or values
+ex: pi value is 3.14, we using const pi = 3.14, we can't able to change the pi value
+
+Data types:
+-> The most important thing of any software is data, Because most of the application we build it in data
+we store it and processing it.
+ex: if we want to create a game, graph it's all about data
+In javascript we divided into data types is two parts are:
+1) primitive data types
+2) Object data types
+
+1) primitive data types: 
+* Number * String * Boolean * Null * Undefined * Symbol
+
+1) Number - * In numbers we want to find the math operations, whatever we can
+            * The maximum value of numbers are: 1.7976931348623157e+308, other than more value we use BigInt
+            * Maximum safe value 9007199254740991
+   Base number system:
+   base10 - decimal(0-9)
+   base2 - binary(0&1)
+   base8 - octal(0-7)
+   base16 - hexadecimal(0-9 and A-F)       
+
+   Example for hexadecimal value are 
+   let num = 0xff
+   console.log(num)//255
+    (ff)16 = (15*16^1) + (15*16)^0
+    FF16 is the given hex number,
+    16 in FF16 represents the base-16 or hexadecimal number system,
+    25510 is the decimal equivalent of hex FF,
+    10 in 25510 represents the base-10 or decimal number system.
+
+2) String: The + operate is very smart it checks weather its string or number, is it String it will concatinated
+            if its number it will addition for example for String
+ 
+3) Boolean: It means either it will true or false
+
+History of javascript programming language
+
+NetsCape company       NetsCape Navigator-2 
+Mocha -> LiveScript -> javascript from 1995 -> ECAMA(European computer manufacturing association)international
+-> ECAMAScript -> ECAMAScript 1 launched 1997 -> 1999 NetsCape sold to AoI launched firefox browser and
+ECAMAScript 3 -> ECAMAScript 3.1 -> micromedia launch ECAMAScript 4 -> 2005 we got AJAX
+(Single page application, SPA) -> 2008 google launch a chrome browser with V8 engine, this browser is 
+compiled and interpreted and just in time compiler, It's comes to right time for javascript, 
+Because javascript has a interpreted language, Now the javascript is a easy language and it is fast
+So in order to run javascript file directly in os and that's we got new environament Node-js.
+Node-js - node-js is a engine where we run our javascript file, Now the javascript have a boosting and 
+then introduces since 2009 ECAMAScript 5, someone called it as modern javascriptc, Now we are in 2015 new  
+features ECAMAScript 6, after onwards so many versions is comming up, But we most popularly we used 
+ECAMAScript 6, Now the current version of ECAMAScript 12
+who owns the trademark of javascript is ORACLE
+
+MicroSoft company
+introduces a name a jScript, it works on internrt explore 
+
+Type Conversion and type Coercion:
+-> It means we convert a one data type into another data type
+
+when we using (==) and (===)
+operators(==) - data, but type we cannot
+operators(===) - we checket in type and as well
+
+logical operator - we want to compare two operators that's why we using logical operator
+we are using And (&) OR (|) and Not (!)
+* And(&) operator: (T, T)sunday, camera is charged, In this scenaio both are required
+* OR(|) operator : camera is charged, phone also charged, Either of one
+* Not(!) operator: we taking both camera and phone give a true, or else false
+
+What is Loop
+-> ex: everyday we eat, everyday we dirnk water that is the loop
+Types of Loops are:
+* while loop - First check for the conditions, we don't know the starting and ending point, we use while loop 
+* Do while loop - First Execute the block then check for the conditions
+* for loop - we know the starting point and ending point, we use loop
+
+Which one is the best loop compare to while loop and for loop
+-> Every loop is an own drawbacks and advantages
+So, if we know the starting value, we know the ending value, we know the iterations for loop is the best
+ex: if want to print the value 1-100 for loop is the best
+
+function - The function is a object data type, other than primitive data type is object data type
+
+Global variable - we created outside the function, we will call it as global variable
+Local variable - created inside the function, So we will call it as local variable
+                 for local variable is created inside the () or inside the block
+
+this keyword - this represents the current object, If I want any of the property of the object always 
+               refers to a this keyword
+
+Array methods - push, pop, shift
+push - it means add the element into the Array
+pop - it means stach first in and first out
+shift - shift does a removes a element from the first
+unshift - it will add a element at the beginning
+splice - it does a removing a element by step by step based on our requirement, and removing an element 
+based on our requirement
