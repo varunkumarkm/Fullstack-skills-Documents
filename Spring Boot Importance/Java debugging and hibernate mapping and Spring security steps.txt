@@ -1,0 +1,26 @@
+Debugging:
+
+step 1: we understand a where the program is starting, and how can we run a program
+step 2: add a breakpoint of that line and Run a program as a debugging mode
+
+There are three important features in debugging are:
+1) step over    2) step into    3) step return
+
+1) step over: step over is helps us to moving a one line ahead
+2) step into: step into is used when we want to go to that method
+   then again we click a step over, its gone again go through next further
+3) step return: step return is used to going back
+
+
+Hibernate mapping:
+
+What is lazy loading and eager loading?
+Lazy loading  -> When the user can access the only one entity, then we can use lazy, because it will give us a better performance
+eager loading -> When the user can access the all the entities, But performance is not good
+
+What is cascade?
+It means when we modified something in the parent we remove the parent row the cascade type should remove all the data from child, 
+which means any modified is done the parent, it will always impact in the child
+ 
+what is the meaning of orphanRemoval = true?
+it means when the delete the parent and child will orphan, when the parent is removed automatically child will also removed
