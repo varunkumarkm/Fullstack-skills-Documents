@@ -1,0 +1,22 @@
+CODE BACKUP FILES and STEP BY STEP CHANGES : For Reference
+
+1) Bookmark the GitHub folder for this section: https://github.com/in28minutes/spring-boot-master-class/tree/master/02.Spring-Boot-Web-Application-V2
+
+2) https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application-V2/99-step-by-step-changes.md#step19
+
+3) https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application-V2/99-step-by-step-changes.md#step27s
+
+4) https://github.com/in28minutes/spring-boot-master-class/tree/master/02.Spring-Boot-Web-Application-V2#navigation---html--bootstrap
+
+5) https://github.com/in28minutes/spring-boot-master-class/tree/master/02.Spring-Boot-Web-Application-V2#docker
+
+6) REST full web services using spring boot
+
+7) Clone from https://github.com/simplyi/mobile-app-ws-quick-start.git
+
+8) Down zip from: https://github.com/simplyi/mobile-app-ws-quick-start/archive/master.zip
+
+9) www.appsdevelopersblog.com for any queries in full stak developer
+
+10) weatherapp link : https://github.com/net-vinothkumar
+http://localhost:8080/swagger-ui.html
